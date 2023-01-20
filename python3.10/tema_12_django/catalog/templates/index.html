@@ -1,0 +1,16 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<h1>Local Movie - Home</h1>
+
+    <p>Welcome to <en>Local Movie</en>, where you can find many movies to watch</p>
+
+<h2>Dynamic content</h2>
+
+    <p>The library has de following counts</p>
+    <ul>
+        <li><strong>Movies:</strong> {{ num_movies }}</li>
+        <li><strong>Directors:</strong> {{ num_directors }}</li>
+    </ul>
+
+{% endblock  %}

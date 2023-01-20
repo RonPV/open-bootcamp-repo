@@ -1,0 +1,25 @@
+def bisiesto(*año):
+
+    #si no hay parametro de entrada pedirlo por teclado
+
+    if(not año):
+        año = int(input("Ingrese el año: "))
+    else:
+        #convertir la variable de tupla en entero
+        año=año[0]
+
+    #caso 1 -> es el ultimo año del y es multiplo de 400
+    case_1 = año%400 == 0 and año%100==0
+
+    #caso 2 -> no es el ultimo año del siglo y es multiplo de 4
+    case_2 = año%4==0 and año%100 != 0
+
+    if(case_1 or case_2):
+        print("El año", año, "es bisiesto.")
+    else:
+        print("El año", año, "no es bisiesto.")
+
+#datos de prueba
+bisiesto(1900)
+bisiesto(2000)
+bisiesto()

@@ -1,0 +1,19 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<h1>Local Movie - Directors</h1>
+
+    <p>Welcome to <en>Local Movie</en>, where you can find many movies to watch</p>
+
+<h2>Dynamic content</h2>
+
+    <p>The library has de following directors</p>
+    <ul>
+        <li><strong>Directors:</strong></li>
+        {% for director in directors %}
+        <p>- {{ director }}
+        {% endfor %}
+        
+    </ul>
+
+{% endblock  %}
