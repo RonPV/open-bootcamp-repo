@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+
+/*Comentario*/
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/*id*/
+p#primera-noticia{
+    color: green;
+    font-size: 12pt;
+}
+#segunda-noticia{
+    color: blueviolet;
+    font-size: 12pt;
+}
+
+/*class*/
+.encabezado{
+    text-transform: uppercase;
+    font-size: 24pt;
+}
+
+*.warning{
+    color: red;
+}
+
+*{
+    font: italic;
+}
+
+.autor, .fecha, .ubicacion, h1, #segunda-noticia{
+    text-decoration: underline;
+}

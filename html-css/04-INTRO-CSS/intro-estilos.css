@@ -1,0 +1,51 @@
+/*
+purecss.io
+coolors.co
+*/  
+
+/*Estilos para colores*/
+.colores{
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #348AA7;
+}
+
+.color-rgb{
+    color: rgb(0, 70, 200);
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/*Fondos*/
+.fondo{
+    /*background-color: aquamarine;*/
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-position: center center;
+}
+
+/*Tamaños*/
+.ancho{
+    background-color: aqua;
+    width: 100px;
+}
+
+.alto{
+    background-color: gold;
+    height: 300px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+    /*margin: 10px 20px 30px 40px;*/
+}
+
