@@ -1,0 +1,19 @@
+.button-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-box button.before-text::before{
+    content: 'Pasa por encima';
+}
+
+.button-box button.hover-text:hover::before {
+    content: '¡Hecho!';
+    color: white;
+    background-color: green;
+}
